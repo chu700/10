@@ -22,3 +22,40 @@ a {
   text-decoration: none;
   display: block;
 }
+
+header{
+  float: left;
+}
+
+.top{
+  float: left;
+  width: 200px;
+  height: calc(100vh - 100px);
+  min-height: 720px;
+}
+
+.bodywarp{
+  float: right;
+  width: calc(100% - 200px);
+  height: calc(100vh - 100px);
+  min-height: 720px;
+}
+
+.contents{
+  float: left;
+  width: 400px;
+  height: 100%;
+  background: bisque;
+}
+
+.imgslide{
+  float: right;
+  width: calc(100% - 400px);
+  height: 100%;
+}
+
+footer{
+  float: left;
+  width: 100%;
+  height: 100px;
+}
